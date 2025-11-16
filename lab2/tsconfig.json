@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "rootDir": "src",          // де лежать твої .ts файли
+    "outDir": "dist",          // куди буде компілюватися JS
+    "strict": true,
+    "lib": ["ES2017", "DOM"],  // для console, includes і т.д.
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*.ts"]   // всі файли в src
+}
